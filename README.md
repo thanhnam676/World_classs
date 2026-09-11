@@ -100,7 +100,7 @@
 
     .controlBtn {
       width: 70px;
-      height: 70px;
+      height: 100px;
 
       border-radius: 50%;
       border: 2px solid rgba(255,255,255,0.6);
@@ -144,7 +144,7 @@
 
   <div id="gameOver">
     <h1>GAME OVER</h1>
-    <p>Điểm của bạn: <span id="finalScore">0</span></p>
+    <p>Điểm của bạn: <span id="finalScore">0</span></p>ㄹ
     <button id="restartBtn">Chơi lại</button>
   </div>
 
@@ -184,7 +184,7 @@ window.addEventListener("resize", resizeCanvas);
 // GAME VARIABLES
 // =========================
 
-let score = 0;
+let score = 10;
 let health = 100;
 let gameRunning = true;
 
